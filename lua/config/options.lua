@@ -8,3 +8,15 @@ vim.opt.spelllang = { "en", "ru" }
 
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+
+vim.filetype.add({
+  extension = {
+    backend = "toml",
+    object = "toml",
+    category = "toml",
+    application = "toml",
+    component = "toml",
+    edition = "toml",
+    diag = "toml",
+  },
+})
