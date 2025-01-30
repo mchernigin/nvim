@@ -9,6 +9,8 @@ vim.opt.spelllang = { "en", "ru" }
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 
+vim.b.autoformat = false
+
 vim.filetype.add({
   extension = {
     backend = "toml",
