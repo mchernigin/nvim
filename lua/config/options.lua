@@ -26,3 +26,12 @@ vim.opt.termguicolors = true
 
 vim.opt.colorcolumn = "80,100,120"
 
+vim.opt.list = true
+vim.opt.listchars = {
+  space = "·",
+  tab = "→ ",
+  trail = "·",
+  extends = "»",
+  precedes = "«",
+  nbsp = "␣"
+}
