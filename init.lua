@@ -1,2 +1,6 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
-require("config.lazy")
+vim.g.mapleader = " "
+
+require("set")
+require("remap")
+require("lsp")
+require("lazy_init")
