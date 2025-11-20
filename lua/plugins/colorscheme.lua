@@ -3,7 +3,7 @@ return {
     "p00f/alabaster.nvim",
     config = function()
       -- vim.cmd.colorscheme("alabaster")
-    end
+    end,
   },
 
   {
@@ -26,7 +26,7 @@ return {
       vim.cmd.colorscheme("gruber-darker")
 
       vim.api.nvim_set_hl(0, "Normal", { bg = "#101010" })
-	  vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#101010" })
-    end
-  }
+      vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#101010" })
+    end,
+  },
 }
