@@ -1,12 +1,11 @@
 vim.lsp.enable({
-  -- 'rust_analyzer',
   "lua_ls",
 })
 
 -- Enable autocomplete
 vim.api.nvim_create_autocmd("LspAttach", {
   callback = function(event)
-    vim.lsp.completion.enable(true, event.data.client_id, event.buf, { autotrigger = true })
+    vim.lsp.completion.enable(true, event.data.client_id, event.buf, { autotrigger = false })
   end,
 })
 
