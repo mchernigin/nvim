@@ -5,6 +5,7 @@ return {
       formatters_by_ft = {
         lua = { "stylua" },
         rust = { "rustfmt", lsp_format = "fallback" },
+        zig = { "zigfmt", lsp_format = "fallback" },
       },
     })
 
